@@ -3,7 +3,7 @@
 #
 #  desktop_info.py
 #
-#  Copyright © 2013-2016 Antergos
+#  Copyright © 2013-2016 stormos
 #
 #  This file is part of Cnchi.
 #
