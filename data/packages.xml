@@ -5,9 +5,7 @@
             <packages>
                 <pkgname>acpid</pkgname>
                 <pkgname>alsa-utils</pkgname>
-                <pkgname>antergos-keyring</pkgname>
-                <pkgname>antergos-mirrorlist</pkgname>
-                <pkgname>antergos-midnight-timers</pkgname>
+                <pkgname>archlinux-keyring</pkgname>
                 <pkgname>b43-fwcutter</pkgname>
                 <!-- Group -->
                 <pkgname>base</pkgname>
@@ -47,10 +45,7 @@
 
         <edition name="graphic" description="Common to all graphic desktops">
             <packages>
-                <pkgname>antergos-alpm-hooks</pkgname>
                 <pkgname>accountsservice</pkgname>
-                <pkgname>antergos-wallpapers</pkgname>
-                <pkgname>antergos-desktop-settings</pkgname>
                 <pkgname>cdrtools</pkgname>
                 <pkgname>dconf-editor</pkgname> 
                 <pkgname>ffmpegthumbnailer</pkgname>
@@ -62,14 +57,11 @@
                 <pkgname>gstreamer-vaapi</pkgname>
                 <pkgname>libdvdcss</pkgname>
                 <pkgname>lightdm</pkgname>
-                <pkgname>lightdm-webkit2-greeter</pkgname>
+                <pkgname>lightdm-gtk-greeter</pkgname>
                 <pkgname>light-locker</pkgname>
                 <pkgname>light-locker-settings</pkgname>
                 <pkgname>mesa</pkgname>
                 <pkgname>mesa-vdpau</pkgname>
-                <pkgname>numix-frost-themes</pkgname>
-                <pkgname>numix-icon-theme</pkgname>
-                <pkgname>numix-icon-theme-square</pkgname>
                 <pkgname>pavucontrol</pkgname>
                 <pkgname>pulseaudio</pkgname>
                 <pkgname>pulseaudio-alsa</pkgname>
@@ -140,7 +132,6 @@
 
         <edition name="Gnome" description="Gnome Desktop">
             <packages>
-                <pkgname>antergos-gnome-defaults-list</pkgname>
                 <pkgname>baobab</pkgname>
                 <pkgname>brasero</pkgname>
                 <pkgname>evince</pkgname>
@@ -195,7 +186,6 @@
 
         <edition name="Cinnamon" description="Cinnamon desktop">
             <packages>
-                <pkgname>antergos-gnome-defaults-list</pkgname>
                 <pkgname>baobab</pkgname>
                 <pkgname>brasero</pkgname>
                 <pkgname>cinnamon</pkgname>
@@ -234,7 +224,7 @@
                 <pkgname>network-manager-applet</pkgname>
                 <pkgname>networkmanager-openvpn</pkgname>
                 <pkgname>networkmanager-pptp</pkgname>
-                <pkgname>pamac</pkgname>
+                <pkgname>pamac-all</pkgname>
                 <pkgname>python-pysmbc</pkgname>
                 <pkgname>qt5ct</pkgname>
                 <pkgname>totem</pkgname>
@@ -261,13 +251,11 @@
                 <pkgname>network-manager-applet</pkgname>
                 <pkgname>networkmanager-openvpn</pkgname>
                 <pkgname>networkmanager-pptp</pkgname>
-                <pkgname>pamac</pkgname>
-                <pkgname>parole</pkgname>
+                <pkgname>pamac-all</pkgname>
                 <pkgname>python-pysmbc</pkgname>
                 <pkgname>polkit-gnome</pkgname>
                 <pkgname>pragha</pkgname>
                 <pkgname>qt5ct</pkgname>
-                <pkgname>ristretto</pkgname>
                 <pkgname>thunar</pkgname>
                 <pkgname>thunar-archive-plugin</pkgname>
                 <pkgname>thunar-volman</pkgname>
