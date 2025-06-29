@@ -3,7 +3,7 @@
 #
 #  cnchi.py
 #
-#  Copyright © 2013-2017 Antergos
+#  Copyright © 2013-2017 stormos
 #
 #  This file is part of Cnchi.
 #
@@ -298,7 +298,7 @@ def check_iso_version():
     """ Hostname contains the ISO version """
     from socket import gethostname
     hostname = gethostname()
-    # antergos-year.month-iso
+    # stormos-year.month-iso
     prefix = "ant-"
     suffix = "-min"
     if hostname.startswith(prefix) or hostname.endswith(suffix):
@@ -309,7 +309,7 @@ def check_iso_version():
             version = hostname[len(prefix):]
         logging.debug("Running from ISO version %s", version)
         # Delete user's chromium cache (just in case)
-        cache_dir = "/home/antergos/.cache/chromium"
+        cache_dir = "/home/stormos/.cache/chromium"
         if os.path.exists(cache_dir):
             shutil.rmtree(cache_dir)
     else:
@@ -322,7 +322,7 @@ def check_iso_version():
 def parse_options():
     """ argparse http://docs.python.org/3/howto/argparse.html """
 
-    desc = _("Cnchi v{0} - Antergos Installer").format(info.CNCHI_VERSION)
+    desc = _("Cnchi v{0} - stormos Installer").format(info.CNCHI_VERSION)
     parser = argparse.ArgumentParser(description=desc)
 
     parser.add_argument(
@@ -371,7 +371,7 @@ def parse_options():
         action="store_true")
     parser.add_argument(
         "--disable-rank-mirrors",
-        help=_("Do not try to rank Arch and Antergos mirrors during installation"),
+        help=_("Do not try to rank Arch and stormos mirrors during installation"),
         action="store_true")
     parser.add_argument(
         "-v", "--verbose",
@@ -430,7 +430,7 @@ def init_cnchi():
     cmd_line = parse_options()
 
     if cmd_line.version:
-        print(_("Cnchi (Antergos Installer) version {0}").format(info.CNCHI_VERSION))
+        print(_("Cnchi (stormos Installer) version {0}").format(info.CNCHI_VERSION))
         sys.exit(0)
 
     if cmd_line.force:
