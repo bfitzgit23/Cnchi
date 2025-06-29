@@ -3,7 +3,7 @@
 #
 #  pacman_conf.py
 #
-#  Copyright © 2013-2016 Antergos
+#  Copyright © 2013-2016 stormos
 #
 #  This file is part of Cnchi.
 #
@@ -96,7 +96,7 @@ settings = {
     'feature_smb': False,
     'feature_visual': False,
     'fullname': '',
-    'hostname': 'antergos',
+    'hostname': 'stormos',
     'is_iso': False,
     'is_vbox': False,
     'keyboard_layout': '',
@@ -142,7 +142,7 @@ settings = {
     'z_hidden': False,
     'zfs': False,
     'zfs_pool_id': 0,
-    'zfs_pool_name': 'antergos'}
+    'zfs_pool_name': 'stormos'}
 
 
 class Settings(object):
@@ -190,7 +190,7 @@ class Settings(object):
             'feature_visual': False,
             'fullname': '',
             'GRUB_CMDLINE_LINUX': '',
-            'hostname': 'antergos',
+            'hostname': 'stormos',
             'is_vbox': False,
             'is_iso': False,
             'keyboard_layout': '',
@@ -235,7 +235,7 @@ class Settings(object):
             'xz_cache': [],
             'z_hidden': False,
             'zfs': False,
-            'zfs_pool_name': 'antergos',
+            'zfs_pool_name': 'stormos',
             'zfs_pool_id': 0})
 
     def _get_settings(self):
